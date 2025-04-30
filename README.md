@@ -4,7 +4,7 @@ Python venv and a pip installed PyQt6.
 
 # How to Install
 Download the script called "bio-calculator.py" into a diroctory of your 
-choice. Navigate with a terminal into the dirocotry were you stored 
+choice. Navigate with a terminal into the directory were you stored 
 the script and start it by typing 
 
 python bio-calculator.py
