@@ -1,5 +1,5 @@
 ## Biorythm Calculator PyQt6
-This Python script needs the version python 3.12 as well as a working 
+This Python script needs the version python 3.12, a working 
 Python venv and a pip installed PyQt6.
 
 ### How to Install
