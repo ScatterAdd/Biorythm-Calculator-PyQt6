@@ -3,7 +3,7 @@ This Python script needs the version python 3.12 as well as a working
 Python venv and a pip installed PyQt6.
 
 # How to Install
-Download the script called "bio-calculator.py" into a diroctory of your 
+Download the script called "bio-calculator.py" into a directory of your 
 choice. Navigate with a terminal into the directory were you stored 
 the script and start it by typing 
 
