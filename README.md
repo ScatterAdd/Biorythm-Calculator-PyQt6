@@ -15,7 +15,6 @@ Enter your birthdate.
 On the date of publication the date is german formated as dd.MM.yyyy.
 The date format can be changed at line 46 in the script.
 
-The position of the window can be adjusted at line 10 and 11.
 
 ### License / Lizenz
 
