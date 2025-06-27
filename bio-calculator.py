@@ -5,10 +5,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHB
 from PyQt6.QtCore import Qt, QDateTime, QPoint
 from PyQt6.QtGui import QPainter, QPen, QColor
 
-# defines the window position
-# 1920x1080 is the screen resolution
-screenX = int(1920 / 2 - 400)
-screenY = int(1080 / 2 - 250)
+
 
 def calculate_biorhythm(days, cycle):
     """
@@ -28,8 +25,17 @@ class BiorhythmWindow(QMainWindow):
         self.setWindowTitle("Biorhythm Calculator")
         # Set the window size
         self.setFixedSize(800, 500)
-        # Set the position of the window
-        self.move(screenX, screenY)
+        # Bildschirmauflösung automatisch ermitteln und Fenster zentrieren
+        screen = QApplication.primaryScreen()
+        if screen:
+            screen_geometry = screen.geometry()
+            screen_width = screen_geometry.width()
+            screen_height = screen_geometry.height()
+            x = int((screen_width - 800) / 2)
+            y = int((screen_height - 500) / 2)
+            self.move(x, y)
+        else:
+            self.move(100, 100)  # Fallback-Position
         
         # Main widget and layout
         main_widget = QWidget()
@@ -84,7 +90,7 @@ class BiorhythmWindow(QMainWindow):
 class DrawWidget(QWidget):
     def __init__(self):
         super().__init__()
-        self.setMinimumSize(800, 400)
+        self.setMinimumSize(800, 450)
         self.physical_data = []
         self.emotional_data = []
         self.intellectual_data = []
