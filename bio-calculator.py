@@ -5,8 +5,6 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHB
 from PyQt6.QtCore import Qt, QDateTime, QPoint
 from PyQt6.QtGui import QPainter, QPen, QColor
 
-
-
 def calculate_biorhythm(days, cycle):
     """
     Calculates the biorhythm value for a specific cycle
