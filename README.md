@@ -16,3 +16,9 @@ On the date of publication the date is german formated as dd.MM.yyyy.
 The date format can be changed at line 46 in the script.
 
 The position of the window can be adjusted at line 10 and 11.
+
+### License / Lizenz
+
+This program is licensed under the GNU Lesser General Public License (LGPL) v2.1 or later. See the LICENSE file for details.
+
+Dieses Programm steht unter der GNU Lesser General Public License (LGPL) Version 2.1 oder neuer. Siehe die Datei LICENSE für Details.
