@@ -5,6 +5,8 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHB
 from PyQt6.QtCore import Qt, QDateTime, QPoint
 from PyQt6.QtGui import QPainter, QPen, QColor
 
+
+
 def calculate_biorhythm(days, cycle):
     """
     Calculates the biorhythm value for a specific cycle
@@ -141,10 +143,10 @@ class DrawWidget(QWidget):
             
             # Legend
             legend_y = 20
-            # Psychical
+            # Physical
             painter.setPen(QPen(Qt.GlobalColor.red, 2))
             painter.drawLine(10, legend_y, 30, legend_y)
-            painter.drawText(35, legend_y + 5, "Psychical: (23 Days)")
+            painter.drawText(35, legend_y + 5, "Physical: (23 Days)")
             # Emotional
             painter.setPen(QPen(Qt.GlobalColor.green, 2))
             painter.drawLine(10, legend_y + 20, 30, legend_y + 20)
@@ -172,3 +174,4 @@ if __name__ == '__main__':
     window = BiorhythmWindow()
     window.show()
     sys.exit(app.exec())
+    
