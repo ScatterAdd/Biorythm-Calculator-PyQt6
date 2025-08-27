@@ -133,8 +133,8 @@ class DrawWidget(QWidget):
             painter.setPen(QPen(Qt.GlobalColor.red, 2))
             self._draw_curve(painter, self.physical_data, middle_x, spacing)
             
-            # Emotional Curve (Green)
-            painter.setPen(QPen(Qt.GlobalColor.green, 2))
+            # Emotional Curve (DarkGreen)
+            painter.setPen(QPen(Qt.GlobalColor.darkGreen, 2))
             self._draw_curve(painter, self.emotional_data, middle_x, spacing)
             
             # Intellectual Curve (Blue)
@@ -148,7 +148,7 @@ class DrawWidget(QWidget):
             painter.drawLine(10, legend_y, 30, legend_y)
             painter.drawText(35, legend_y + 5, "Physical: (23 Days)")
             # Emotional
-            painter.setPen(QPen(Qt.GlobalColor.green, 2))
+            painter.setPen(QPen(Qt.GlobalColor.darkGreen, 2))
             painter.drawLine(10, legend_y + 20, 30, legend_y + 20)
             painter.drawText(35, legend_y + 25, "Emotional: (28 Days)")
             # Intellectual
