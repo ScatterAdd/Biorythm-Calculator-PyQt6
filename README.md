@@ -1,4 +1,8 @@
 ## Biorythm Calculator PyQt6
+
+     This project is licensed under the GNU General Public License v3.0. See the 
+     LICENSE file for details.
+
 This Python script needs the version python 3.12, a working 
 Python venv and a pip installed PyQt6.
 
@@ -16,8 +20,16 @@ On the date of publication the date is german formated as dd.MM.yyyy.
 The date format can be changed at line 50 in the script.
 
 
-### License / Lizenz
+# License
+     This project is licensed under the GNU General Public License v3.0. See the 
+     LICENSE file for details.
 
-This program is licensed under the GNU Lesser General Public License (LGPL) v2.1 or later. See the LICENSE file for details.
+## Third‑party libraries and licenses
 
-Dieses Programm steht unter der GNU Lesser General Public License (LGPL) Version 2.1 oder neuer. Siehe die Datei LICENSE für Details.
+     PyQt5 (Riverbank): GPL (see included license file or upstream)
+     PyOpenGL (if used): BSD/MIT‑style (check upstream)
+    
+    All bundled third‑party license texts are retained in this repository. If you 
+    include any external files or binaries, see the corresponding license files in 
+    the repo.
+    
