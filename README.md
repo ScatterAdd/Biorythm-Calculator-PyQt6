@@ -26,7 +26,7 @@ The date format can be changed at line 50 in the script.
 
 ### Third‑party libraries and licenses
 
-    PyQt5 (Riverbank): GPL (see included license file or upstream)
+    PyQt6 (Riverbank): GPL (see included license file or upstream)
         
     All bundled third‑party license texts are retained in this repository. If you 
     include any external files or binaries, see the corresponding license files in 
