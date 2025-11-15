@@ -24,7 +24,7 @@ The date format can be changed at line 50 in the script.
      This project is licensed under the GNU General Public License v3.0. See the 
      LICENSE file for details.
 
-## Third‑party libraries and licenses
+### Third‑party libraries and licenses
 
     PyQt5 (Riverbank): GPL (see included license file or upstream)
         
