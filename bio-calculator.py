@@ -1,3 +1,14 @@
+"""
+Biorythm Calculator
+
+Copyright (C) 2025 Uwe Kletscher (ScatterAdd)
+This project is licensed under the GNU General Public License Version 3 (GPL-3.0).
+You are allowed to use, modify, and distribute this project,
+provided that all modified versions are also released under the GPL-3.0 license.
+
+See LICENSE for the full license text.
+"""
+
 import sys
 import math
 from datetime import datetime, date
